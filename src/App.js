@@ -1,8 +1,9 @@
 import React from "react";
 
 // import logo from "./logo.svg";
-import "./index.css";
+
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./index.css";
 import { NaviBar } from "./components/Navbar";
 
 function App() {
