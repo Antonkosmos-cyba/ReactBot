@@ -2,6 +2,7 @@ import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react";
 import "./navbar.css";
+import { Route, Routes } from "react-router-dom";
 
 const NaviBar = () => {
   return (
@@ -23,6 +24,9 @@ const NaviBar = () => {
           <Link to="/foto">Фото</Link>
         </Nav.Link>
       </Nav>
+      <Routes>
+        <Route exact path="/" element={<Main />} />
+      </Routes>
     </Navbar>
   );
 };
