@@ -8,7 +8,7 @@ import Video from "../pages/video/Video.jsx";
 import Music from "../pages/music/Music.jsx";
 import Main from "../pages/main/Main.jsx";
 
-function NaviBar() {
+function Heder() {
   return (
     <Navbar collapseOnSelect expand="lg" className="nav">
       <Navbar.Brand className="logo">AC</Navbar.Brand>
@@ -37,4 +37,4 @@ function NaviBar() {
   );
 }
 
-export default NaviBar;
+export default Heder;

@@ -4,14 +4,14 @@ import React from "react";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
-import NaviBar from "./components/navbar/Navbar";
+import Heder from "./components/navbar/Navbar";
 import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <NaviBar />
+        <Heder />
       </div>
     </BrowserRouter>
   );
