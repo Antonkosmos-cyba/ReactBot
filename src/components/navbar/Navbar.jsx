@@ -2,12 +2,12 @@ import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react";
 import "./navbar.css";
-import { Route, Routes } from "react-router-dom";
-import Video from "../pages/video/Video.jsx";
-import Music from "../pages/music/Music.jsx";
-import Main from "../pages/main/Main.jsx";
+// import { Route, Routes } from "react-router-dom";
+// import Video from "../pages/video/Video.jsx";
+// import Music from "../pages/music/Music.jsx";
+// import Main from "../pages/main/Main.jsx";
 
-const NaviBar = () => {
+function NaviBar() {
   return (
     <Navbar collapseOnSelect expand="lg" className="nav">
       <Navbar.Brand className="logo">AC</Navbar.Brand>
@@ -27,13 +27,13 @@ const NaviBar = () => {
           <Link to="/music">Музыка</Link>
         </Nav.Link>
       </Nav>
-      <Routes>
+      {/* <Routes>
         <Route exact path="/" element={<Main />} />
         <Route path="/video" element={<Video />} />
         <Route path="/misic" element={<Music />} />
-      </Routes>
+      </Routes> */}
     </Navbar>
   );
-};
+}
 
 export default NaviBar;
