@@ -1,10 +1,6 @@
 import React from "react";
 // import { Link } from "react";
 import "./navbar.css";
-import { Route, Routes } from "react-router-dom";
-import Video from "../pages/video/Video.jsx";
-import Music from "../pages/music/Music.jsx";
-import Main from "../pages/main/Main.jsx";
 
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
@@ -18,7 +14,7 @@ function Heder() {
         <Navbar.Brand className="text-logo">Новый 2024 год</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="flex-grow-0">
-          <Nav className="m-auto">
+          <Nav className="m-auto flex-row justify-content-around">
             <Nav.Link>
               <Link to="/"> Главная</Link>
             </Nav.Link>
@@ -31,11 +27,6 @@ function Heder() {
           </Nav>
         </Navbar.Collapse>
       </Container>
-      <Routes>
-        <Route exact path="/" element={<Main />}></Route>
-        <Route path="/music" element={<Music />}></Route>
-        <Route path="/video" element={<Video />}></Route>
-      </Routes>
     </Navbar>
   );
 }
