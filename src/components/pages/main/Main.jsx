@@ -4,7 +4,7 @@ import "./main.css";
 function Main() {
   return (
     <>
-      <p>nanana</p>;
+      <p>nanana</p>
     </>
   );
 }

@@ -13,12 +13,12 @@ import { Link } from "react-router-dom";
 
 function Heder() {
   return (
-    <Navbar expand="md" className="bg-body-tertiary">
-      <Container>
+    <Navbar expand="md" className="bg-body-tertiary flex-column">
+      <Container className="w-100">
         <Navbar.Brand className="text-logo">Новый 2024 год</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+        <Navbar.Collapse id="basic-navbar-nav" className="flex-grow-0">
+          <Nav className="m-auto">
             <Nav.Link>
               <Link to="/"> Главная</Link>
             </Nav.Link>
