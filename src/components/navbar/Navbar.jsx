@@ -14,15 +14,21 @@ function Heder() {
         <Navbar.Brand className="text-logo">Новый 2024 год</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="flex-grow-0">
-          <Nav className="m-auto flex-row justify-content-around">
+          <Nav className="m-auto flex-row justify-content-around stil">
             <Nav.Link>
-              <Link to="/"> Главная</Link>
+              <Link to="/" className="no-underline">
+                Главная
+              </Link>
             </Nav.Link>
             <Nav.Link>
-              <Link to="/music">Музыка</Link>
+              <Link to="/music" className="no-underline">
+                Музыка
+              </Link>
             </Nav.Link>
             <Nav.Link>
-              <Link to="/video">Видео</Link>
+              <Link to="/video" className="no-underline">
+                Видео
+              </Link>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

@@ -13,3 +13,11 @@
   margin-top: 5px;
   margin-bottom: 5px;
 }
+
+.no-underline {
+  text-decoration-line: none;
+}
+
+.stil {
+  list-style-type: none;
+}
