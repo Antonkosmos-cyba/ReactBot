@@ -5,7 +5,7 @@ import "./navbar.css";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { Link } from "react-router-dom";
+import { CustLink } from "../Customlink";
 
 function Heder() {
   return (
@@ -16,19 +16,19 @@ function Heder() {
         <Navbar.Collapse id="basic-navbar-nav" className="flex-grow-0">
           <Nav className="m-auto flex-row justify-content-around stil">
             <Nav.Link>
-              <Link to="/" className="no-underline">
+              <CustLink to="/" className="no-underline">
                 Главная
-              </Link>
+              </CustLink>
             </Nav.Link>
             <Nav.Link>
-              <Link to="/music" className="no-underline">
+              <CustLink to="/music" className="no-underline">
                 Музыка
-              </Link>
+              </CustLink>
             </Nav.Link>
             <Nav.Link>
-              <Link to="/video" className="no-underline">
+              <CustLink to="/video" className="no-underline">
                 Видео
-              </Link>
+              </CustLink>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
