@@ -6,12 +6,15 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { CustLink } from "../Customlink";
+import logo from "./music_logo.svg";
 
 function Heder() {
   return (
     <Navbar expand="md" className="bg-body-tertiary flex-column">
       <Container className="w-100">
-        <Navbar.Brand className="text-logo">Новый 2024 год</Navbar.Brand>
+        <Navbar.Brand>
+          <img className="logo" src={logo} alt="" />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="flex-grow-0">
           <Nav className="m-auto flex-row justify-content-around stil">
