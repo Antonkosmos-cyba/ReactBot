@@ -19,17 +19,17 @@ function Heder() {
         <Navbar.Collapse id="basic-navbar-nav" className="flex-grow-0">
           <Nav className="m-auto flex-row justify-content-around stil">
             <Nav.Link>
-              <CustLink to="/" className="no-underline">
+              <CustLink to="/" className="no-underline text-h">
                 Главная
               </CustLink>
             </Nav.Link>
             <Nav.Link>
-              <CustLink to="/music" className="no-underline">
+              <CustLink to="/music" className="no-underline text-h">
                 Музыка
               </CustLink>
             </Nav.Link>
             <Nav.Link>
-              <CustLink to="/video" className="no-underline">
+              <CustLink to="/video" className="no-underline text-h">
                 Видео
               </CustLink>
             </Nav.Link>
