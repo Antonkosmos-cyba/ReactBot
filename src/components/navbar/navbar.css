@@ -19,3 +19,9 @@
   width: 62px;
   height: 62px;
 }
+
+.fonblur {
+  /* background-color: blue; */
+  /* backdrop-filter: blur(2px); */
+  opacity: 0.7;
+}

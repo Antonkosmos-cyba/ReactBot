@@ -10,7 +10,7 @@ import logo from "./music_logo.svg";
 
 function Heder() {
   return (
-    <Navbar expand="md" className="bg-body-tertiary flex-column">
+    <Navbar expand="md" className="bg-body-tertiary fonblur flex-column">
       <Container className="w-100">
         <Navbar.Brand>
           <img className="logo" src={logo} alt="" />
