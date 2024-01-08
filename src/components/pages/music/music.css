@@ -5,13 +5,7 @@ p {
 }
 
 
-.positem {
-  /* max-width: 70%;
-  margin: 50px auto; */
-}
-
-
-.pos {
-  /* align: center;
-  margin: auto; */
+.cont {
+  padding-left: 300px;
+  padding-right: 300px;
 }
