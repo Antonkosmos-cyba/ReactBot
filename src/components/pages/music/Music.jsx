@@ -3,8 +3,8 @@ import "./music.css";
 
 import Carousel from "react-bootstrap/Carousel";
 import Image1 from "./milana5.png";
-import Image2 from "./di4.png";
-import Image3 from "./Nuzhnye3.jpg";
+import Image2 from "./di5.png";
+import Image3 from "./Nuzhnye5.jpg";
 
 function Music() {
   return (
@@ -14,14 +14,14 @@ function Music() {
           <img
             src={Image1}
             alt=""
-            // max-width={600}
+            // max-width={100}
             // height={300}
             className="pos"
           ></img>
-          <Carousel.Caption>
+          {/* <Carousel.Caption>
             <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
+          {/* </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
           <img

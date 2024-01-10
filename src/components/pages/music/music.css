@@ -5,7 +5,11 @@ p {
 }
 
 
-.cont {
+/* .cont {
   padding-left: 300px;
   padding-right: 300px;
+} */
+
+img {
+  max-width: 100%;
 }
