@@ -1,12 +1,12 @@
 import React from "react";
-import "./music.css";
+import "./vaina.css";
 
 import Carousel from "react-bootstrap/Carousel";
-import Image1 from "./milana5.png";
-import Image2 from "./di5.png";
-import Image3 from "./Nuzhnye5.jpg";
+import Image1 from "./vaina1.jpg";
+import Image2 from "./vaina1.jpg";
+import Image3 from "./vaina1.jpg";
 
-function Music() {
+function Vaina() {
   return (
     <div className="cont">
       <Carousel fade className="positem">
@@ -56,4 +56,4 @@ function Music() {
   );
 }
 
-export default Music;
+export default Vaina;

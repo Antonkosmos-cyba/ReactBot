@@ -6,7 +6,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { CustLink } from "../Customlink";
-import logo from "./music_logo.svg";
+import logo from "./rings1.png";
 
 function Heder() {
   return (
@@ -24,13 +24,13 @@ function Heder() {
               </CustLink>
             </Nav.Link>
             <Nav.Link>
-              <CustLink to="/music" className="no-underline text-h">
-                Музыка
+              <CustLink to="/vaina" className="no-underline text-h">
+                Ваня
               </CustLink>
             </Nav.Link>
             <Nav.Link>
-              <CustLink to="/video" className="no-underline text-h">
-                Видео
+              <CustLink to="/liza" className="no-underline text-h">
+                Лиза
               </CustLink>
             </Nav.Link>
           </Nav>

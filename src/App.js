@@ -6,8 +6,8 @@ import { Route, Routes, BrowserRouter } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
 import Heder from "./components/navbar/Navbar";
-import Video from "./components/pages/video/Video";
-import Music from "./components/pages/music/Music";
+import Liza from "./components/pages/liza/Liza.jsx";
+import Vaina from "./components/pages/vaina/Vaina.jsx";
 import Main from "./components/pages/main/Main";
 
 function App() {
@@ -18,8 +18,8 @@ function App() {
           <Heder />
           <Routes>
             <Route exact path="/" element={<Main />}></Route>
-            <Route path="/music" element={<Music />}></Route>
-            <Route path="/video" element={<Video />}></Route>
+            <Route path="/liza" element={<Liza />}></Route>
+            <Route path="/video" element={<Vaina />}></Route>
           </Routes>
         </div>
       </BrowserRouter>
