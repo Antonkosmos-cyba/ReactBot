@@ -18,7 +18,7 @@ function App() {
           <Heder />
           <Routes>
             <Route exact path="/" element={<Main />}></Route>
-            <Route path="/liza" element={<Liza />}></Route>
+            <Route path="/Liza" element={<Liza />}></Route>
             <Route path="/vaina" element={<Vaina />}></Route>
           </Routes>
         </div>
