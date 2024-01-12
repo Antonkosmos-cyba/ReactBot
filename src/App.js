@@ -19,7 +19,7 @@ function App() {
           <Routes>
             <Route exact path="/" element={<Main />}></Route>
             <Route path="/liza" element={<Liza />}></Route>
-            <Route path="/video" element={<Vaina />}></Route>
+            <Route path="/vaina" element={<Vaina />}></Route>
           </Routes>
         </div>
       </BrowserRouter>
