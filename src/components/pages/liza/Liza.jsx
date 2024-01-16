@@ -8,20 +8,18 @@ import Image3 from "./ort.jpg";
 
 function Liza() {
   return (
-    <div className="cont">
-      <Carousel fade className="positem">
-        {/* <Carousel.Item>
+    <Carousel fade className="positem">
+      {/* <Carousel.Item>
           <img src={Image1} alt="" className="pos"></img>
         </Carousel.Item> */}
 
-        <Carousel.Item>
-          <img src={Image2} alt="" className="pos"></img>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img src={Image3} alt="" className="pos"></img>
-        </Carousel.Item>
-      </Carousel>
-    </div>
+      <Carousel.Item>
+        <img src={Image2} alt="" className="pos"></img>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src={Image3} alt="" className="pos"></img>
+      </Carousel.Item>
+    </Carousel>
   );
 }
 
