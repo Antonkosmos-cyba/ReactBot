@@ -1,9 +1,32 @@
 p {
-  margin-top: 100px;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
   font-size: 40px;
-  color: #1131a3;
+  text-transform: uppercase;
+  background: linear-gradient(45deg, #37d637 25%, #b515bd 35%, #37d63c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* color: #0B2349; */
   text-align: center;
   font-family: "EFN";
+}
+
+@media (max-width: 770px) {
+  p {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 430px) {
+  p {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 380px) {
+  p {
+    font-size: 22px;
+  }
 }
 
 :root {
@@ -128,7 +151,7 @@ a:hover {
 }
 
 
-.logo {
+/* .logo {
   width: 20vh;
 }
 
@@ -149,7 +172,7 @@ a:hover {
     width: 28vh;
     height: 28vh;
   }
-}
+} */
 
 h1 {
   font-size: 4.5vh;
