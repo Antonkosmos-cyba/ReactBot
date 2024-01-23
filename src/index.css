@@ -13,6 +13,21 @@
   src: url(./assets/fonts/EFN\ Lemon.ttf);
 }
 
+@font-face {
+  font-family: call;
+  src: url(./assets/fonts/ofont.ru_Calligraphia\ One.ttf);
+}
+
+@font-face {
+  font-family: good;
+  src: url(./assets/fonts/ofont.ru_Good\ Vibes\ Pro.ttf);
+}
+
+@font-face {
+  font-family: old;
+  src: url(./assets/fonts/ofont.ru_Old\ Classic.ttf);
+}
+
 body {
   background-image: url(./assets/images/fon.jpg);
 
