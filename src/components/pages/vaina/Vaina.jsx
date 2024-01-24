@@ -3,8 +3,8 @@ import "./vaina.css";
 
 import Carousel from "react-bootstrap/Carousel";
 import Image1 from "./vaina4.png";
-import Image2 from "./kar.jpg";
-import Image3 from "./ort.jpg";
+import Image2 from "./vn2.png";
+import Image3 from "./vn3.png";
 
 function Vaina() {
   return (

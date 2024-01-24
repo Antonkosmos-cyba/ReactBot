@@ -3,8 +3,8 @@ import "./liza.css";
 
 import Carousel from "react-bootstrap/Carousel";
 import Image1 from "./liza.png";
-import Image2 from "./sv.jpg";
-import Image3 from "./ort.jpg";
+import Image2 from "./liz2.png";
+import Image3 from "./liz3.png";
 
 function Liza() {
   return (
