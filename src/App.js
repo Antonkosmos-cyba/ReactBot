@@ -6,7 +6,7 @@ import { Route, Routes, BrowserRouter } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
 import Heder from "./components/navbar/Navbar";
-import Video from "./components/pages/video/Video";
+import Audio from "./components/pages/audio/Audio";
 import Music from "./components/pages/music/Music";
 import Main from "./components/pages/main/Main";
 
@@ -19,7 +19,7 @@ function App() {
           <Routes>
             <Route exact path="/" element={<Main />}></Route>
             <Route path="/music" element={<Music />}></Route>
-            <Route path="/video" element={<Video />}></Route>
+            <Route path="/audio" element={<Audio />}></Route>
           </Routes>
         </div>
       </BrowserRouter>

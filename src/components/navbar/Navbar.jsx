@@ -29,8 +29,8 @@ function Heder() {
               </CustLink>
             </Nav.Link>
             <Nav.Link>
-              <CustLink to="/video" className="no-underline text-h">
-                Видео
+              <CustLink to="/audio" className="no-underline text-h">
+                Плеер
               </CustLink>
             </Nav.Link>
           </Nav>
