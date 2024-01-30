@@ -1,5 +1,16 @@
-p {
-  margin-top: 100px;
-  font-size: 16px;
-  text-align: center;
+.pp {
+  margin-top: 4px;
+}
+
+/* .cont {
+  display: flex;
+  flex-direction: row;
+} */
+
+.player {
+  max-width: 100%;
+}
+
+.cb {
+  background-color: rgb(93, 176, 82);
 }
