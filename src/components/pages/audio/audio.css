@@ -2,10 +2,15 @@
   margin-top: 4px;
 }
 
-/* .cont {
-  display: flex;
-  flex-direction: row;
-} */
+.section {
+  padding: 20px 0;
+}
+
+.cont {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 100%;
+}
 
 .player {
   max-width: 100%;
