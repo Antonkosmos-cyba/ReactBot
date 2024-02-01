@@ -14,8 +14,10 @@
 
 .player {
   max-width: 100%;
+
 }
 
 .cb {
   background-color: rgb(93, 176, 82);
+  margin: 0 auto;
 }

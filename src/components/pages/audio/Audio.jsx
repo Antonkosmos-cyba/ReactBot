@@ -10,7 +10,7 @@ function Audio() {
     <>
       <div className="section">
         <div className="cont">
-          <Row xs={1} sm={2} md={2} xl={6} xxl={4} className="g-4 ">
+          <Row sm={1} md={2} lg={3} xxl={4} className="g-4 ">
             {audios.map((audio) => {
               return (
                 <Col>

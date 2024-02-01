@@ -1,7 +1,7 @@
 import Image1 from "./milana5.png";
 import Image2 from "./di5.png";
 import Image3 from "./Nuzhnye5.jpg";
-import Image4 from "./vika.webp";
+import Image4 from "./vika1.webp";
 import muzik1 from "./Milana.mp3";
 import muzik2 from "./di.mp3";
 import muzik3 from "./Milana.mp3";
@@ -32,7 +32,7 @@ const audios = [
   {
     img: Image4,
     name: "Вика старикова",
-    song: "Я чеченский",
+    song: "Я адыгский",
     muz: muzik4,
     id: 4,
   },
