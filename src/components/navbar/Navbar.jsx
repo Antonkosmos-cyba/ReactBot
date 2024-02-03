@@ -1,6 +1,6 @@
 import React from "react";
 // import { Link } from "react";
-import "./navbar.css";
+import "./navbar.scss";
 
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
@@ -23,11 +23,11 @@ function Heder() {
                 Главная
               </CustLink>
             </Nav.Link>
-            <Nav.Link>
+            {/* <Nav.Link>
               <CustLink to="/music" className="no-underline text-h">
                 Музыка
               </CustLink>
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link>
               <CustLink to="/audio" className="no-underline text-h">
                 Плеер

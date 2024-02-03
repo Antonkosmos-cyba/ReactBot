@@ -1,5 +1,5 @@
 import React from "react";
-import "./audio.css";
+import "./audio.scss";
 import audios from "./Playlist";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";

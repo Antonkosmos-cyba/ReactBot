@@ -5,7 +5,7 @@ import Image4 from "./vika1.webp";
 import muzik1 from "./Milana.mp3";
 import muzik2 from "./di.mp3";
 import muzik3 from "./Milana.mp3";
-import muzik4 from "./Milana.mp3";
+import muzik4 from "./Milana.mp4";
 
 const audios = [
   {
