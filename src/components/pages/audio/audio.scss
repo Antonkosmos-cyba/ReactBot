@@ -17,6 +17,13 @@
 }
 
 .cb {
-  background-color: rgb(93, 176, 82);
+  background-color: rgb(82, 163, 176);
   margin: 0 auto;
+}
+audio::-webkit-media-controls-panel {
+  background-color: rgb(112, 224, 251);
+}
+
+audio::-webkit-media-controls-play-button {
+  color: #eef0f0;
 }
