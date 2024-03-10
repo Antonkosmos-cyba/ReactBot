@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.92532d55.css",
-    "main.js": "/static/js/main.5845b0cb.js",
+    "main.js": "/static/js/main.54e9b88b.js",
     "static/media/liza.png": "/static/media/liza.dca22d6c78309492b660.png",
     "static/media/liz3.png": "/static/media/liz3.69255cf5919f424b7fb0.png",
     "static/media/vn2.png": "/static/media/vn2.618fedf11912f4e8c457.png",
@@ -9,6 +9,7 @@
     "static/media/vn3.png": "/static/media/vn3.046442ee1d58515a387d.png",
     "static/media/liz2.png": "/static/media/liz2.f9ba1cc842b9e28a71ef.png",
     "static/media/ofont.ru_Good Vibes Pro.ttf": "/static/media/ofont.ru_Good Vibes Pro.ad9bc147c39f7cd3f661.ttf",
+    "static/media/Marr.jpg": "/static/media/Marr.20457f1c4468cfaadfa3.jpg",
     "static/media/fon.jpg": "/static/media/fon.1cb01ff2aab42fce83af.jpg",
     "static/media/Aventador script.ttf": "/static/media/Aventador script.71990afc31c0c2b3ccdc.ttf",
     "static/media/ofont.ru_Old Classic.ttf": "/static/media/ofont.ru_Old Classic.3c70ff6ef9f6f93c976f.ttf",
@@ -16,13 +17,12 @@
     "static/media/EFN Lemon.ttf": "/static/media/EFN Lemon.28007006634235903591.ttf",
     "static/media/rings1.png": "/static/media/rings1.77962e79fda1e9ddcb90.png",
     "static/media/CoopBlack_Cyrillic_0.ttf": "/static/media/CoopBlack_Cyrillic_0.96a01b358de07c6d1e00.ttf",
-    "static/media/horizontally-centered-vertical-decoration.png": "/static/media/horizontally-centered-vertical-decoration.26ac7ce718c32aba3ccf.png",
     "index.html": "/index.html",
     "main.92532d55.css.map": "/static/css/main.92532d55.css.map",
-    "main.5845b0cb.js.map": "/static/js/main.5845b0cb.js.map"
+    "main.54e9b88b.js.map": "/static/js/main.54e9b88b.js.map"
   },
   "entrypoints": [
     "static/css/main.92532d55.css",
-    "static/js/main.5845b0cb.js"
+    "static/js/main.54e9b88b.js"
   ]
 }
