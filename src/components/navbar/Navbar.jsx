@@ -33,6 +33,11 @@ function Heder() {
                 Лиза
               </CustLink>
             </Nav.Link>
+            <Nav.Link>
+              <CustLink to="/map" className="no-underline text-h">
+                Карта
+              </CustLink>
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
