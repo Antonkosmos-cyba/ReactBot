@@ -4,7 +4,11 @@ import "./map.css";
 import Karta from "./map.png";
 
 function Map() {
-  return <img src={Karta} alt=""></img>;
+  return (
+    <div className="karta">
+      <img className="bord" src={Karta} alt=""></img>
+    </div>
+  );
 }
 
 export default Map;

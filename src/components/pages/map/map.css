@@ -1,0 +1,14 @@
+.karta {
+  width: 100%;
+
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.bord {
+  border: 2px solid #f3c809;
+  border-radius: 5px;
+}
